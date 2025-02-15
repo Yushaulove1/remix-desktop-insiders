@@ -43,7 +43,7 @@ jobs:
 
     - name: Run Zimperium zScan
       uses: zimperium/zscanmarketplace@bfc6670f6648d796098c251ccefcfdb98983174d
-      timeout-minutes: 60
+      timeout-minutes: 0
       with:
         # REPLACE: Zimperium Client Environment Name
         client_env: env_string
